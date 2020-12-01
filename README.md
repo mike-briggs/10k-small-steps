@@ -15,7 +15,12 @@ A photo sharing app created with Mongo, Express, Angular & Node using jwt for au
   ```sh
   npm install npm@latest -g
   ```
+* Angular CLI
 
+  ```sh
+  npm install -g @angular/cli
+  ```
+  
 ### Installation
 1. Server
 
@@ -25,7 +30,7 @@ A photo sharing app created with Mongo, Express, Angular & Node using jwt for au
 2. Run Server
 
    ```sh
-   nodemon src/index.js
+   npm run dev
    ```
 
  #### Open Separate Terminal
@@ -38,7 +43,7 @@ A photo sharing app created with Mongo, Express, Angular & Node using jwt for au
 4. Run Client
 
    ```sh
-   ng serve
+   npm run start
    ```
    
 ### Features
