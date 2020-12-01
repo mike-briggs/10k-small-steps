@@ -25,6 +25,7 @@ exports.registerNewUser = async (req, res) => {
     } catch (err) {
         console.log(err)
         res.status(500).json({
+            msg:"AHH something went wrong",
             error: err
         })
     }
