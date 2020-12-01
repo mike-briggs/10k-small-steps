@@ -30,7 +30,7 @@ A photo sharing app created with Mongo, Express, Angular & Node using jwt for au
 2. Run Server
 
    ```sh
-   nodemon src/index.js
+   npm run dev
    ```
 
  #### Open Separate Terminal
@@ -43,7 +43,7 @@ A photo sharing app created with Mongo, Express, Angular & Node using jwt for au
 4. Run Client
 
    ```sh
-   ng serve --open
+   npm run start
    ```
    
 ### Features
