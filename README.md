@@ -2,6 +2,8 @@
 Purpose, the origin of passion & an important factor in your success, even if you can't accurately describe your purpose at the moment - Put simply, look to the things that have captured your imagination or curiosity, big or small. 
 
 This app allows you to log those moments when you are most passionate in what you're doing, discovering connections to your underlying purpose overtime.
+
+#### Process
 https://www.clearweb.agency/work/ten-thousand-small-steps
 
 ### Getting Started
