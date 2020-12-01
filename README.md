@@ -65,5 +65,6 @@ A photo sharing app created with Mongo, Express, Angular & Node using jwt for au
 3. Many images - lazy loading needs to be implemented
 4. Using proper secrets for jwt and env variables
 5. Last user feature: exporting filtered list to .mp4 for progression sequence
+6. Skill buttons don't change skill selection & images filter
 
 
