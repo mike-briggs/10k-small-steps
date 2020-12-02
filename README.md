@@ -63,7 +63,7 @@ A photo sharing app created with Mongo, Express, Angular & Node using jwt for au
 1. Not deployed to proper server
 2. Images uploaded to localhost backend and not cloud backend or s3 bucket
 3. Many images - lazy loading needs to be implemented
-4. No image name hashing - done to reference same image and save space
+4. No image name hashing during testing
 5. Using proper secrets for jwt and env variables
 6. Last user feature: exporting filtered list to .mp4 for progression sequence
 7. Skill buttons don't change skill selection & images filter
