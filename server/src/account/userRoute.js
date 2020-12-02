@@ -71,8 +71,8 @@ router.put("/upload",auth, upload.array('avatar',6), (req, res) => {
     let reqFiles = null;
     
     const url = req.protocol + '://' + req.get('host')
-    
-        reqFiles = url + '/public/' + req.files[0].filename;
+    console.log(url)
+    reqFiles = url + '/public/' + req.files[0].filename;
     
    
     console.log(req.body.id)
