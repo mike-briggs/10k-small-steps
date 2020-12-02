@@ -26,12 +26,12 @@ body {
     margin-bottom: 30px;
     height:6px;
     border-radius: 100px;
-    background-color: #2637de;
+    background-color: #1ebca0;
 }
 
 .progress-contain{
     margin-top:0px;
-    background-color: #b5bcff;
+    background-color: #e1f1ef;
 }
 
 .bg-success{
@@ -85,7 +85,7 @@ body {
 .message {
     padding:12px;
     text-align: center;
-    color: #2637de;
+    color: #a0a1a2;
 }
 
 .remove {
@@ -393,7 +393,7 @@ nav {
     border-radius: 5px;
     font-weight:500;
     color: #2637de;
-    background-color: #eff0ff;
+    background-color: #fafbff;
     transition: 400ms;
 
 }
@@ -554,19 +554,15 @@ nav {
     font-size:14px;
     width:100%;
     padding: 18px 24px;
-    border: solid 1px #2637de !important;
+    border: solid 1px #d5d5db!important;
     border-radius:4px;
-    border: none;
+   
     cursor:pointer;
-    transition: 200ms;
+    transition: border 400ms;
 }
 .outline-button:hover{
-
-    background-color: #2637de;
-    color:#fff;
-    transition: 200ms;
-
-
+    border: solid 2px #000!important;
+    transition: border 200ms;
 }
 .naked-button{
     background-color: transparent;
