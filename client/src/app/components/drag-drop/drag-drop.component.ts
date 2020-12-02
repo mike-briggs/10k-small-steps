@@ -79,7 +79,10 @@ export class DragDropComponent implements OnInit {
               break;
             case HttpEventType.ResponseHeader:
               console.log('Response header has been received!');
-              
+              if (event.status == 500) {
+                this.msg = "Only upload photos please.";
+                this.progress = 0;
+              }
               break;
             case HttpEventType.UploadProgress:
               this.progress = Math.round(event.loaded / event.total * 100);

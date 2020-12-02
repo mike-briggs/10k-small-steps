@@ -46,7 +46,9 @@ export class HomeComponent implements OnInit {
   }
 
   //UI Helpers
-
+  setFilter(filter){
+    this.currentImageFilter = filter;
+  }
   getTotalString() {
     if (this.imageData.images.length >= 1000) {
       return '10,000';
